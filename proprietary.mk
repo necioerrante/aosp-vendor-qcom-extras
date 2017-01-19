@@ -29,4 +29,11 @@ PRODUCT_PACKAGES += \
     Fluid_Handset_cal.acdb \
     Fluid_Hdmi_cal.acdb \
     Fluid_Headset_cal.acdb \
-    Fluid_Speaker_cal.acdb
+    Fluid_Speaker_cal.acdb \
+    Sony_Bluetooth_cal.acdb \
+    Sony_General_cal.acdb \
+    Sony_Global_cal.acdb \
+    Sony_Handset_cal.acdb \
+    Sony_Hdmi_cal.acdb \
+    Sony_Headset_cal.acdb \
+    Sony_Speaker_cal.acdb

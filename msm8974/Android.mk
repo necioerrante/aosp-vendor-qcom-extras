@@ -203,6 +203,73 @@ LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Fluid/
 LOCAL_SRC_FILES         := etc/acdbdata/Fluid/Fluid_Speaker_cal.acdb
 include $(BUILD_PREBUILT)
 
+# ---------------------------------------------------------------------------------
+#             Populate ACDB data files to file system for Sony
+# ---------------------------------------------------------------------------------
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_Bluetooth_cal.acdb
+LOCAL_MODULE_FILENAME   := Sony_Bluetooth_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_Bluetooth_cal.acdb
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_General_cal.acdb
+LOCAL_MODULE_FILENAME   := Sony_General_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_General_cal.acdb
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_Global_cal.acdb
+LOCAL_MODULE_FILENAME   := Sony_Global_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_Global_cal.acdb
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_Handset_cal.acdb
+LOCAL_MODULE_FILENAME   := Sony_Handset_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_Handset_cal.acdb
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_Hdmi_cal.acdb
+LOCAL_MODULE_FILENAME   := Sony_Hdmi_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_Hdmi_cal.acdb
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_Headset_cal.acdb
+LOCAL_MODULE_FILENAME   := Sony_Headset_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_Headset_cal.acdb
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE            := Sony_Speaker_cal.acdb
+LOCAL_MODULE_FILENAME   := Speaker_cal.acdb
+LOCAL_MODULE_TAGS       := optional
+LOCAL_MODULE_CLASS      := ETC
+LOCAL_MODULE_PATH       := $(TARGET_OUT_ETC)/acdbdata/Sony/
+LOCAL_SRC_FILES         := etc/acdbdata/Sony/Sony_Speaker_cal.acdb
+include $(BUILD_PREBUILT)
+
 # ------------------------------------------------------------------------------
 # 32BIT LIBS
 # ------------------------------------------------------------------------------
